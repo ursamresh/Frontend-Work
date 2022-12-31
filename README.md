@@ -1,7 +1,5 @@
 # Frontend-Work
 
 ## Instagram Post 
-![instagif](https://i.imgur.com/F4v7nS4.gif)
-[Imgur](https://i.imgur.com/F4v7nS4.gifv)
-img[](https://imgur.com/F4v7nS4)
-[Imgur](https://i.imgur.com/F4v7nS4.gifv)
+[Imgur](https://i.imgur.com/4azWLbm.png)
+
