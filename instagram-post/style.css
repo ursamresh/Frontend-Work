@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    background-color: rgb(233, 233, 232);
+}
+
+.main{
+    background-color: #fff;
+    border-radius: 5px;
+
+    width: 22vw;
+    height: 92vh;
+   margin: 5% 10% 10% 40%;
+   padding: 1rem;
+flex-wrap: wrap;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+
+}
+
+
+.main:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+img{
+width: 100%;
+height: 100%;
+}
+
+#comment-img,#self-img{
+    width: 45px;
+    height: 100%;
+    border-radius: 100%;
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-child{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.top-child-img{
+    padding: 0 5px 0 0;
+}
+
+
+.image-container{
+    margin: 8px 0 2px 0;
+    height: 54%;
+}
+
+.footer-icon-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-btn{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.comment-section{
+    display: flex;
+    justify-content: flex-start;
+ margin-top: 8px;
+    gap: 10px;
+}
+
+input{
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    color: rgb(36, 34, 34);
+    font-size: 1rem;
+}
+
+
+
+
+
+i{
+    font-size: 1.5rem;
+}
+
+.footer-btn,.save-icon{
+    padding: 1rem;
+}
+
+.footer-btn{
+    display: flex;
+    gap: 0.9rem;
+   
+}
+
+
+.view-comment{
+    margin-top: 0.5rem;
+    color: rgb(116, 113, 113);
+}
+
+#comment-img{
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+#self-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+.fa-heart{
+    color: #f00;
+}
