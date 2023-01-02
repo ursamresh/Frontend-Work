@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- my music styles -->
+    <link rel="stylesheet" href="./music.css" />
+    <!-- font awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/79daad236c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-icon">
+        <i class="speaker fa-solid fa-volume-high"></i>
+        <i class="list fa-solid fa-list"></i>
+      </div>
+      <div class="music-img">
+        <img src="./assets/images/4.jpg" alt="" srcset="" />
+      </div>
+      <div class="music-title">Bella Ciao</div>
+
+      <div class="seekbar">
+        <input
+          id="dur"
+          type="range"
+          name="range"
+          min="0"
+          step="0.25"
+          value="0"
+        />
+      </div>
+      <div class="seekbar-timer">
+        <p class="initalTime">00.00</p>
+        <p class="finalTime">02.30</p>
+      </div>
+      <div class="functionality">
+        <i class="rotate fa-solid fa-rotate-right"></i>
+        <i class="play play1 fa-solid fa-angles-left"></i>
+        <i class="play play2 fa-solid fa-play"></i>
+        <i class="play play3 fa-solid fa-angles-right"></i>
+        <i class="love fa-sharp fa-solid fa-heart"></i>
+      </div>
+    </div>
+
+    <script src="./music.js"></script>
+  </body>
+</html>
