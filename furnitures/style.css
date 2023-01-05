@@ -569,6 +569,7 @@ flex-direction: column;
 }
 .about-us{
     width: 30%;
+    font-size: 25px;
 }
 .footer-text-container{
     margin: 10px 8px 10px 8px;
