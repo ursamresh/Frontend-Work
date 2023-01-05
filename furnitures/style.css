@@ -562,18 +562,17 @@ flex-direction: column;
 
 .footer-title{
     color: var(--secondary);
+    font-size: 25px;
 }
 
 .footer-inner-text p{
     font-size: 16px;
 }
-
 .footer-inner-text p a{
     color: var(--txt-grey);
 }
 .about-us{
     width: 30%;
-    font-size: 25px;
 }
 .footer-text-container{
     margin: 10px 8px 10px 8px;
